@@ -5,7 +5,7 @@ document.getElementById('employees').addEventListener('click', function() {
     fetch('https://randomuser.me/api/?results=20')
         .then((response) => {
             if (response.ok) {
-                let data = response.json()
+                let data = response.json();
                 return data;
             }
             throw response;
@@ -45,7 +45,7 @@ document.getElementById('profiles').addEventListener('click', function() {
     fetch('https://randomuser.me/api/?results=20')
         .then((response) => {
             if (response.ok) {
-                let data = response.json()
+                let data = response.json();
                 return data;
             }
             throw response;
@@ -92,7 +92,7 @@ document.getElementById('categories').addEventListener('click', function() {
     fetch('https://randomuser.me/api/?results=20')
         .then((response) => {
             if (response.ok) {
-                let data = response.json()
+                let data = response.json();
                 return data;
             }
             throw response;
@@ -141,7 +141,7 @@ document.getElementById('registers').addEventListener('click', function() {
     fetch('https://randomuser.me/api/?results=20')
         .then((response) => {
             if (response.ok) {
-                let data = response.json()
+                let data = response.json();
                 return data;
             }
             throw response;
