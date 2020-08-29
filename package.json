@@ -1,5 +1,5 @@
 {
-    "name": "ecomsur",
+    "name": "dashboard",
     "version": "1.0.0",
     "description": "Test Landing Page",
     "main": "src/index.js",
