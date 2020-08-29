@@ -11,7 +11,7 @@ En la siguiente imagen se observa la interfaz propuesta.
 
 * Vista Inicial
 
-![vista inicial](scr/img/vista01.png)
+![vista inicial](src/img/vista01.png)
 
 * Vista Empleados
 
