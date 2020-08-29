@@ -111,3 +111,44 @@ h1 {
     display: inline-flex;
     justify-content: space-between;
 }
+
+@media screen and (min-width:480px) {
+    .btns {
+        margin-top: 5px;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        overflow: hidden;
+        height: 100%;
+        padding: 10px;
+        padding-left: 5px;
+    }
+    .btn {
+        height: 50px;
+        width: 18%;
+        color: lightyellow;
+        padding: 5px;
+        font-size: 15px;
+        border-radius: 2px;
+        border: none;
+    }
+    .cards {
+        width: 40%;
+        font-size: 76%;
+        border-radius: 2px;
+        display: inline-flex;
+        justify-content: space-between;
+        color: black;
+        padding-top: 19px;
+        border: none;
+        background-color: rgb(241, 241, 241);
+        margin: 1% 1%;
+        padding: 1%;
+        padding-bottom: 5px;
+    }
+    .cards img {
+        width: 36px;
+        height: 36px;
+        padding: 0px;
+    }
+}
