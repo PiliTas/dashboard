@@ -62,3 +62,9 @@ h1 {
     border-radius: 2px;
     border: none;
 }
+
+#datacontainer {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
