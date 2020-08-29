@@ -52,3 +52,13 @@ h1 {
     justify-content: space-around;
     overflow: hidden;
 }
+
+.btn {
+    height: 35px;
+    width: 85px;
+    color: lightyellow;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 2px;
+    border: none;
+}
