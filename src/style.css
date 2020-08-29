@@ -63,6 +63,22 @@ h1 {
     border: none;
 }
 
+#employees {
+    background: rgb(37, 134, 163);
+}
+
+#profiles {
+    background: #d98310;
+}
+
+#categories {
+    background: #1d2731;
+}
+
+#registers {
+    background: #083c5d;
+}
+
 #datacontainer {
     display: inline-flex;
     justify-content: center;
