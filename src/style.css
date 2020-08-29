@@ -193,3 +193,45 @@ h1 {
         padding: 0px;
     }
 }
+
+@media screen and (min-width: 950px) {
+    .btns {
+        margin-top: 5px;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        overflow: hidden;
+        height: 100%;
+        padding: 10px;
+        padding-left: 12px;
+    }
+    .btn {
+        height: 60px;
+        width: 22.8%;
+        color: lightyellow;
+        padding: 5px;
+        font-size: 18px;
+        border-radius: 2px;
+        border: none;
+    }
+    .cards {
+        width: 20%;
+        /* height: 100%; */
+        font-size: 80%;
+        border-radius: 2px;
+        display: inline-flex;
+        justify-content: space-between;
+        color: black;
+        padding-top: 19px;
+        border: none;
+        background-color: rgb(241, 241, 241);
+        margin: 1% 1%;
+        padding: 1%;
+        padding-bottom: 10px;
+    }
+    .cards img {
+        width: 36px;
+        height: 36px;
+        padding: 0px;
+    }
+}
