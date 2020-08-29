@@ -1,7 +1,7 @@
 # PROYECTO [DASHBOARD](https://npgonzalez.github.io/dashboard/src/) - ECOMSUR
 
-Este proyecto consiste en la creación de un dashboard de acuerdo con pautas señaladas desde ECOMSUR. La información proviene de una API proporcionada para el desarrollo del mismo.
-Tiempo para su creación 24 horas... 
+Este proyecto consiste en la creación de un dashboard de acuerdo a las pautas señaladas desde ECOMSUR. La información proviene de una API proporcionada para el desarrollo del mismo.
+Tiempo para su creación 24 horas a partir de su recibo...!!!!  
 
 En la siguiente imagen se observa la interfaz propuesta.
 
