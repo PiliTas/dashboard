@@ -1,4 +1,4 @@
-export default function dataEmployees() {
+export default function dataCategories() {
 
     // FUNCIONALIDAD BOTÓN CATEGORÍAS DE ACUERDO A LOS AÑOS DE SERVICIO (REGISTRO)
     // JUNIOR  0 < AÑOS DE SERVICIO < 5
