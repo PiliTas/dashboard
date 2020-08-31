@@ -14,19 +14,19 @@ export default function dataCategories() {
             throw response;
         })
         .then(data => {
-            const element = data.results;
+            const elements = data.results;
             let category = "";
             document.getElementById('subtitle').style.color = '#1d2731';
             document.getElementById('subtitle').innerHTML = `<h1>Categorías</h1>`;
             document.getElementById('datacontainer').innerHTML = '';
-            for (let i = 0; i < element.length; i += 1) {
-                if (element[i].registered.age > 0 && element[i].registered.age < 5) {
+            elements.forEach(element => {
+                if (element.registered.age > 0 && element.registered.age < 5) {
                     category = "Junior";
                 } else {
-                    if (element[i].registered.age >= 5 && element[i].registered.age < 10) {
+                    if (element.registered.age >= 5 && element.registered.age < 10) {
                         category = "Semi-senior";
                     } else {
-                        if (element[i].registered.age >= 10) {
+                        if (element.registered.age >= 10) {
                             category = "Senior";
                         }
                     }
@@ -34,19 +34,18 @@ export default function dataCategories() {
                 document.getElementById('datacontainer').innerHTML +=
                     `<div class="cards"> 
                         <ul>
-                            <li><div class ="card"><img src= ${element[i].picture.large}>
+                            <li><div class ="card"><img src= ${element.picture.large}>
                             <ul>
-                                <li>Nombre: ${element[i].name.first} ${element[i].name.last}</li>
-                                <li>Años de servicio: ${element[i].registered.age}</li>
+                                <li>Nombre: ${element.name.first} ${element.name.last}</li>
+                                <li>Años de servicio: ${element.registered.age}</li>
                                 <li>Categoría: ${category}</li>
                             </ul>
                                 </div>
                         </ul>
-                    </div> `;
-            }
+                    </div> `
+            });
         })
         .catch((error) => {
             console.log('error', error)
         })
-
 }

@@ -11,26 +11,25 @@ export default function dataEmployees() {
             throw response;
         })
         .then(data => {
-            const element = data.results;
+            const elements = data.results;
             document.getElementById('subtitle').style.color = 'rgb(37, 134, 163)';
             document.getElementById('subtitle').innerHTML = `<h1>Empleados</h1>`;
             document.getElementById('datacontainer').innerHTML = '';
-            for (let i = 0; i < element.length; i += 1) {
+            elements.forEach(element =>
                 document.getElementById('datacontainer').innerHTML +=
-                    `<div class="cards"> 
+                `<div class="cards"> 
                                 <ul>
-                                    <li><div class ="card"><img src= ${element[i].picture.large}>
+                                    <li><div class ="card"><img src= ${element.picture.large}>
                                     <ul>
-                                        <li>${element[i].name.title} ${element[i].name.first} ${element[i].name.last}</li>
-                                        <li>Cel.: ${element[i].cell}</li>
-                                        <li>Dirección: ${element[i].location.street.name} ${element[i].location.street.number}</li>
-                                        <li>${element[i].location.postcode} - ${element[i].location.country}</li>
+                                        <li>${element.name.title} ${element.name.first} ${element.name.last}</li>
+                                        <li>Cel.: ${element.cell}</li>
+                                        <li>Dirección: ${element.location.street.name} ${element.location.street.number}</li>
+                                        <li>${element.location.postcode} - ${element.location.country}</li>
                                     </ul>
                                          </div>
                                 </ul>
-                            </div> `;
-            }
-
+                            </div> `
+            );
         })
         .catch((error) => {
             console.log('error', error)
