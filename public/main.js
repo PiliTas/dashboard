@@ -4,21 +4,11 @@ import dataCategories from './button03.js';
 import dataRegisters from './button04.js';
 
 
-const showEmployees = () => {
-    return dataEmployees();
-}
+const showEmployees = () => dataEmployees();
+const showProfiles = () => dataProfiles();
+const showCategories = () => dataCategories();
+const showRegisters = () => dataRegisters();
 
-const showProfiles = () => {
-    return dataProfiles();
-}
-
-const showCategories = () => {
-    return dataCategories();
-}
-
-const showRegisters = () => {
-    return dataRegisters();
-}
 
 
 document.getElementById('employees').addEventListener('click', showEmployees);
