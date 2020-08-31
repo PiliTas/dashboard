@@ -2,10 +2,10 @@
     "name": "dashboard01",
     "version": "1.0.0",
     "description": "Test Landing Page",
-    "main": "src/index.js",
+    "main": "public/main.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "serve ./src"
+        "start": "serve ./public"
     },
     "keywords": [
         "flexbox",
