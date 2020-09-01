@@ -59,7 +59,7 @@ h1 {
     color: lightyellow;
     padding: 5px;
     font-size: 12px;
-    border-radius: 2px;
+    border-radius: 5px;
     border: none;
 }
 
@@ -133,11 +133,7 @@ h1 {
     .btn {
         height: 50px;
         width: 18%;
-        color: lightyellow;
-        padding: 5px;
         font-size: 15px;
-        border-radius: 2px;
-        border: none;
     }
     .cards {
         width: 40%;
@@ -174,11 +170,7 @@ h1 {
     .btn {
         height: 60px;
         width: 19%;
-        color: lightyellow;
-        padding: 5px;
         font-size: 18px;
-        border-radius: 2px;
-        border: none;
     }
     .cards {
         width: 25%;
@@ -215,11 +207,7 @@ h1 {
     .btn {
         height: 60px;
         width: 22.8%;
-        color: lightyellow;
-        padding: 5px;
         font-size: 18px;
-        border-radius: 2px;
-        border: none;
     }
     .cards {
         width: 20%;
