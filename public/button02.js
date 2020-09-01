@@ -18,7 +18,7 @@ export default function dataProfiles() {
             document.getElementById('subtitle').innerHTML = `<h1>Perfiles</h1>`;
             document.getElementById('datacontainer').innerHTML = '';
             elements.forEach(element => {
-                if (element[i].gender === "female") {
+                if (element.gender === "female") {
                     genders = "mujer";
                 } else {
                     genders = "hombre"
