@@ -13,7 +13,7 @@ export default function dataEmployees() {
         .then(data => {
             const elements = data.results;
             document.getElementById('subtitle').style.color = 'rgb(37, 134, 163)';
-            document.getElementById('subtitle').innerHTML = `<h1>Empleados</h1>`;
+            document.getElementById('subtitle').innerHTML = `<h1>Contactos</h1>`;
             document.getElementById('datacontainer').innerHTML = '';
             elements.forEach(element =>
                 document.getElementById('datacontainer').innerHTML +=

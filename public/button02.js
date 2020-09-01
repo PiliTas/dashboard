@@ -28,7 +28,7 @@ export default function dataProfiles() {
                     <ul>
                         <li><div class ="card"><img src= ${element.picture.large}>
                         <ul>
-                            <li>Nombre: ${element.name.title} ${element.name.first} ${element[i].name.last}</li>
+                            <li>Nombre: ${element.name.title} ${element.name.first} ${element.name.last}</li>
                             <li>Género: ${genders}</li>
                             <li>Edad: ${element.dob.age}</li>
                             <li>Nacionalidad: ${element.nat}</li>

@@ -79,9 +79,16 @@ h1 {
     background: #083c5d;
 }
 
+#subtitle p {
+    margin: 100px;
+    text-align: center;
+    color: rgb(7, 105, 134);
+}
+
 #datacontainer {
     display: inline-flex;
     justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
 }
 
